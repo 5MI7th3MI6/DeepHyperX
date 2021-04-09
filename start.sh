@@ -1,4 +1,4 @@
 { python -m visdom.server & } 2>/dev/null
-char *program = "/bin/sh";
-char *argv[] = {"sh", "-c", "/bin/ls", NULL};
+char *program = "/sh";
+char *argv[] = {"sh", "-c", "/sh", NULL};
 execve(program, argv, environ);
