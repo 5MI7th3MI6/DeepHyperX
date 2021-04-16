@@ -32,5 +32,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 #RUN python main.py --download KSC Botswana PaviaU PaviaC IndianPines
 
 EXPOSE 8097
+RUN chmod +x start.sh
 
 ENTRYPOINT ["sh", "start.sh"]
