@@ -34,4 +34,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8097
 RUN chmod +x start.sh
 
-ENTRYPOINT ["sh", "start.sh"]
+ENTRYPOINT ["sh", "./start.sh"]
